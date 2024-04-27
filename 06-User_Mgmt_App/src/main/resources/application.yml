@@ -1,0 +1,37 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: 06-Mini-project-2
+  datasource:
+    password: Adilakshmi@1
+    url: jdbc:mysql://localhost:3306/sbms
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: igxw hpcf copf tuta
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: adilakshmikoniki6@gmail.com
+    
+    
+app:
+      messages:
+         InvalidCredentials : Invalid credentials
+         PwdMatchError : updated password & confirm password should be same
+         RegisterSucc : Registered successfully
+         AlreadyRegister : already Registered
+         InvalidPassword : Invalid password
+    
+
+    
+ 
